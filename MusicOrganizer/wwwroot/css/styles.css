@@ -1,0 +1,57 @@
+div#footer {
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  color:#CCC;
+  background:#333;
+  padding:8px;
+}
+
+.home {
+  padding-top: 14%;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-color:rgba(230, 175, 37, 0.987);
+  font-size: 45px;
+  color: #20916f;
+  font-weight: lighter;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+body {
+  background-color:rgba(230, 175, 37, 0.987);
+  background-size: cover;
+  text-align: center;
+  font-size: 25px;
+}
+
+h2 {
+  color:rgb(52, 2, 56);
+  font-size: 22px;
+  font-weight: bold;
+}
+.glow {
+  font-size: 80px;
+  color: rgb(116, 195, 238);
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(255, 203, 143),
+      0 0 40px rgb(178, 252, 192), 0 0 50px rgb(143, 255, 180),
+      0 0 60px rgba(106, 218, 252, 0.733), 0 0 70px rgb(172, 228, 153);
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px rgb(255, 203, 143),
+      0 0 40px rgba(106, 218, 252, 0.733), 0 0 50px rgba(106, 218, 252, 0.733),
+      0 0 60px rgb(246, 143, 255), 0 0 70px rgb(255, 203, 143),
+      0 0 80px rgba(106, 218, 252, 0.733);
+  }
+}
